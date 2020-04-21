@@ -1,0 +1,11 @@
+version: 1
+task_definition:
+  ecs_network_mode: bridge
+
+  task_size:
+    cpu_limit: 768
+    mem_limit: 0.5GB
+
+  services:
+    worker_app:
+      essential: true
