@@ -17,7 +17,7 @@ gem 'aws-sdk-s3', '~> 1.25'
 
 # Backgroud worker
 gem 'hiredis', '~> 0.6.1'
-gem 'sidekiq', '~> 5.2'
+gem 'sidekiq', '~> 6.4'
 
 # Spree-commerce
 gem 'spree', '~> 3.7'
